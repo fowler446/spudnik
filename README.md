@@ -1,6 +1,6 @@
 # Spudnik
 
-Spudnik is a domain name generator that generates vegatable based domain names in the format "adjective-vegetable-number".
+Spudnik is a sub domain generator that generates vegatable based domain names in the format "adjective-vegetable-number".
 
 ## Installation
 

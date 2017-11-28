@@ -3,11 +3,11 @@ defmodule Spudnik do
   require Spudnik.Noun
 
   @moduledoc """
-  Spudnik is a random sub domain generator. All domain names are based on vegetables.
+  Spudnik is a sub domain generator. All domain names are based on vegetables.
   """
 
   @doc """
-  Generates a random vegatable based sub domain.
+  Generates a vegatable based sub domain in the format "adjective-vegetable-number".
 
   ## Example
 
