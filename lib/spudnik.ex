@@ -1,6 +1,6 @@
 defmodule Spudnik do
   require Spudnik.Vegetable
-  require Spudnik.Noun
+  require Spudnik.Adjective
 
   @moduledoc """
   Spudnik is a sub domain generator. All domain names are based on vegetables.
@@ -16,10 +16,10 @@ defmodule Spudnik do
 
   """
   def gen do
-    noun = Spudnik.Noun.get_noun()
+    adjective = Spudnik.Adjective.get_adjective()
     vegetable = Spudnik.Vegetable.get_vegetable() |> String.replace(" ", "-") 
     number = Enum.random(1000..9999)
-    "#{noun}-#{vegetable}-#{number}"
+    "#{adjective}-#{vegetable}-#{number}"
   end
 
 end

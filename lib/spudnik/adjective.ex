@@ -1,9 +1,9 @@
-defmodule Spudnik.Noun do
+defmodule Spudnik.Adjective do
   @moduledoc """
-  Noun related logic lives here.
+  Adjective related logic lives here.
   """
 
-  @nouns [
+  @adjectives [
     "different", "used", "important", "every",
     "large", "available", "popular", "able",
     "basic", "known", "various", "difficult",
@@ -139,15 +139,15 @@ defmodule Spudnik.Noun do
   ]
 
   @doc ~S"
-  Returns a random noun from the list of nouns.
+  Returns a random adjective from the list of adjectives.
 
   Example:
 
-    iex> Sputnik.Noun.get_noun
+    iex> Sputnik.Adjective.get_adjective
     cool
   "
 
-  def get_noun do
-    Enum.random(@nouns)
+  def get_adjective do
+    Enum.random(@adjectives)
   end
 end
